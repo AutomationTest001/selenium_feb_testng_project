@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28371" started-at="2023-03-25T12:43:43 IST" finished-at="2023-03-25T12:44:11 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28371" started-at="2023-03-25T12:43:43 IST" finished-at="2023-03-25T12:44:11 IST">
+      <class name="com.itview.testcases.DataDriven_FD_DataProvider">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.itview.testcases.DataDriven_FD_DataProvider@eb21112]" name="beforeTest" is-config="true" duration-ms="5607" started-at="2023-03-25T12:43:43 IST" finished-at="2023-03-25T12:43:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.itview.testcases.DataDriven_FD_DataProvider@eb21112]" name="f" duration-ms="10657" started-at="2023-03-25T12:43:49 IST" data-provider="dp" finished-at="2023-03-25T12:43:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Simple Interest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.itview.testcases.DataDriven_FD_DataProvider@eb21112]" name="f" duration-ms="6092" started-at="2023-03-25T12:43:59 IST" data-provider="dp" finished-at="2023-03-25T12:44:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[300000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Simple Interest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.itview.testcases.DataDriven_FD_DataProvider@eb21112]" name="f" duration-ms="5947" started-at="2023-03-25T12:44:06 IST" data-provider="dp" finished-at="2023-03-25T12:44:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[600000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Simple Interest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.itview.testcases.DataDriven_FD_DataProvider@eb21112]" name="afterTest" is-config="true" duration-ms="0" started-at="2023-03-25T12:44:11 IST" finished-at="2023-03-25T12:44:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.itview.testcases.DataDriven_FD_DataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

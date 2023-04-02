@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 6, Time elapsed: 6.455 s <<< FAILURE! - in TestSuite
+openBrowser(com.itview.testng.LoginOpenMRS)  Time elapsed: 4.478 s  <<< FAILURE!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:52696/devtools/browser/e7415b8b-1db0-4f5b-9466-c0ae6fc1cb93
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: ChromeDriver
+	at com.itview.testng.LoginOpenMRS.openBrowser(LoginOpenMRS.java:17)
+
+preCondition(com.itview.testng.LoginMutualFund)  Time elapsed: 4.481 s  <<< FAILURE!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:52695/devtools/browser/6d3c7ea1-a671-4bd1-b285-598c30f31001
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: ChromeDriver
+	at com.itview.testng.LoginMutualFund.preCondition(LoginMutualFund.java:18)
+
