@@ -50,6 +50,8 @@ public class LoginMutualFund {
 		w.findElement(By.name("btnSubmit")).click();
 		Thread.sleep(3000);
 		w.findElement(By.linkText("Sign Off")).click();
+		
+		System.out.println("Login Successfully !!!");
 	}
 
 	@AfterTest
